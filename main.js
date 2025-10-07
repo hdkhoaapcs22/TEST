@@ -1,4 +1,7 @@
-const add = (x, y) => x + y;
+const add = (x, y) => {
+    if(x < 0) return 0;
+    return x + y;
+}
 
 const sub = (x,y) => {
     if(x < 0) return 0;
