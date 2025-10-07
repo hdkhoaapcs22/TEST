@@ -8,5 +8,7 @@ const sub = (x,y) => {
     return x - y;
 }
 
+const multiple = (x,y) => x * y
+
 console.log(add(1, 2)); // 3
 console.log(sub(2,1))
